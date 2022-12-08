@@ -32,7 +32,7 @@ const Dashboard = ({ navigation }) => {
   
     <View style={styles.container}>
       <View style={styles.toptitle}>
-        <Text style={styles.feedspaceText}>PUTA</Text>
+        <Text style={styles.feedspaceText}>Feedspace</Text>
       <TouchableOpacity style={styles.messagetab} onPress={navigateToMessage}>
             <Ionicons name="md-paper-plane" size={30} color="black"></Ionicons>
             </TouchableOpacity>
